@@ -1,11 +1,13 @@
-package com.banditos.piratestation
+package com.banditos.piratestation;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
 
 @SpringBootApplication
-class PirateStationApplication
+public class PirateStationApplication {
 
-fun main(args: Array<String>) {
-    runApplication<PirateStationApplication>(*args)
+    public static void main(String[] args) {
+        SpringApplication.run(PirateStationApplication.class, args);
+    }
 }
+
